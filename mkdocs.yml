@@ -3,10 +3,14 @@ site_url: https://breakthingssafely.com
 site_description: A free cyber security learning pathway — for anyone from a work experience student to a curious colleague.
 repo_url: https://github.com/t-d-knight/break-things-safely
 edit_uri: edit/main/docs/
+copyright: Personal opinions, not endorsements or hiring advice — just things that seemed handy, updated whenever there's spare time to do it.
 
 theme:
   name: material
+  custom_dir: overrides
   font: false
+  favicon: assets/favicon.svg
+  logo: assets/favicon.svg
   palette:
     - scheme: slate
       primary: black
@@ -21,8 +25,6 @@ theme:
     - search.highlight
     - content.action.edit
     - content.code.copy
-  icon:
-    logo: material/shield-search
 
 extra_css:
   - stylesheets/terminal.css

@@ -2,11 +2,13 @@
 
 Before you learn to hack things, learn how people actually get hacked. A huge number of successful attacks start with something much simpler than a zero-day: stolen credentials, phishing, reused passwords or social engineering — not clever exploits.
 
-## Learn to Protect Yourself
+## Your email account is worth more than you think
 
-Before learning how to hack things, learn how people actually get hacked.
+It might not feel like there's much in it worth protecting. But email is usually the recovery path for everything else — if someone gets into your email, they can often reset their way into your banking, socials and anything else tied to that address.
 
-A huge number of successful attacks start with something much simpler than a zero-day: stolen credentials, phishing, reused passwords or social engineering.
+**Your sent items folder matters too.** If you've ever emailed a scan of your ID, your TFN, a payslip or proof of address to apply for a job, a course, a rental or a loan, there's a good chance it's still sitting in there. Worth a look — and worth deleting once you don't need it anymore.
+
+[Have I Been Pwned](https://haveibeenpwned.com) lets you check whether an address has already appeared in a known breach — but the more useful move is subscribing for free notifications, so you find out the moment a *new* one includes you, not months later.
 
 ## Password managers
 
@@ -37,7 +39,12 @@ Turn it on everywhere it's offered:
 * Work accounts
 * Cloud services
 
+!!! tip "Don't know where to start?"
+    Most vendors publish their own walkthrough. Googling "how to set up MFA for [whatever you're using]" usually turns up clear, step-by-step instructions — it looks more intimidating the first time than it actually is.
+
 Prefer passkeys, hardware security keys or authenticator apps over SMS where practical.
+
+A password manager like Bitwarden can also store the MFA code itself right alongside the password it belongs to, synced across every device — one less app to juggle.
 
 Save your recovery codes somewhere safe.
 

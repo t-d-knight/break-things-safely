@@ -41,3 +41,9 @@ Start using it to ask:
     What was the attacker trying to achieve, and what technique did they use to do it?
 
 That's how a lot of professional SOC, detection and threat-intelligence work starts to make sense.
+
+### Try the Navigator
+
+[ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) turns that theory into something visual. Pick a few threat actor groups that target your industry, layer their known techniques on top of each other, and you can see where their TTPs overlap — a genuinely useful, beginner-friendly intro to threat modelling and control prioritisation, since the overlapping techniques are usually the ones worth defending against first.
+
+It sounds more complicated than it is. [This walkthrough](https://www.youtube.com/watch?v=hN_r3JW6xsY) demonstrates the idea well.
