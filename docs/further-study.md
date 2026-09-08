@@ -35,3 +35,14 @@ Industry organisations worth knowing about include:
 [ACS](https://www.acs.org.au) — Australian Computer Society
 
 And don't underestimate the value of building skills outside formal education.
+
+### If you want a certification anyway
+
+[Build Evidence, Not Certificates](build-evidence.md) is the philosophy on this site, and it still stands — a portfolio beats a wall of certificates. But a couple of entry-level certs genuinely help get an application noticed, especially with zero professional experience to point to yet:
+
+* **CompTIA A+** — not a security cert at all, it's general IT. But it's a solid "jack of all trades, master of none" starting point that signals you understand how a computer actually works, which is exactly the foundation [Get the Foundations](foundations.md) is built on.
+* **CompTIA Security+** — the standard entry-level security cert, widely recognised and often literally listed as a minimum requirement in junior security job ads.
+* **ISC2 Certified in Cybersecurity (CC)** — a genuinely free entry-level cert from a major industry body, worth doing purely because of the price.
+* **Microsoft SC-900** — useful specifically if you're heading toward a Microsoft-shop environment (which is most Australian workplaces), covers security, compliance and identity concepts at a foundational level.
+
+Pick one, not all four. Then go build the evidence to back it up.

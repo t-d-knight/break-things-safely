@@ -24,6 +24,19 @@ Don't upload:
 
 If the material belongs to your school, employer or someone else, ask first.
 
+## What if you find something you shouldn't have
+
+Sometimes you're not looking, and you stumble onto a real vulnerability on a real, live system that isn't yours. That's a different situation to deliberately testing something without permission — but it still needs handling carefully.
+
+Don't dig further than you need to confirm it's real. Don't access, download or change any data beyond that. Don't tell anyone publicly before the organisation knows.
+
+This site doesn't have day-to-day experience running disclosure processes, so rather than improvise, use the reputable references built specifically for this:
+
+* [disclose.io](https://disclose.io) — plain-language guidance and templates for reporting a vulnerability responsibly, including how to find the right contact for an organisation that hasn't published one
+* [The CERT Guide to Coordinated Vulnerability Disclosure](https://certcc.github.io/CERT-Guide-to-CVD/) — the long-form reference from CERT/CC (Carnegie Mellon's CERT Coordination Center) on how responsible disclosure is meant to work and why
+
+If you're a minor or otherwise unsure, loop in a parent, teacher or someone else you trust before reaching out to the organisation — see [If Something Actually Goes Wrong](if-something-goes-wrong.md) for the general "get help early" principle, which applies here too.
+
 | Tool                                                         | What it does                                                |
 | -------------------------------------------------------------- | -------------------------------------------------------------- |
 | [VirusTotal](https://virustotal.com)                         | Analyse files, URLs and hashes using many security engines  |

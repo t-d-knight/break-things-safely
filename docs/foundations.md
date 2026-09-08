@@ -4,6 +4,8 @@ Cyber security sits on top of a bunch of other technologies.
 
 You don't need to master all of them. You just need enough to understand what's happening underneath the security tooling.
 
+If the acronyms on this page (or anywhere else on this site) stop making sense, the [Cyber & IT Glossary](glossary.md) is there to translate.
+
 ## Networking
 
 Start by understanding:

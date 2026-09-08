@@ -16,6 +16,8 @@ Get some grown-up support early — a parent, teacher, manager or someone else y
 
 !!! success "You will not be in trouble for asking for help."
 
+These reporting paths are Australian. Outside Australia, search for your own country's equivalent — the US has [IC3](https://www.ic3.gov), the UK has [Action Fraud](https://www.actionfraud.police.uk) — but the advice above (don't panic, don't pay, save evidence, get help early) applies everywhere.
+
 ### Where to report it
 
 * [ReportCyber (cyber.gov.au)](https://www.cyber.gov.au/report) — Australia's central place to report cybercrime, including hacking, online fraud and extortion

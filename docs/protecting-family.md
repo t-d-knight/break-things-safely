@@ -3,6 +3,8 @@
 > This isn't a learning pathway. It's a shortlist of things you can actually install or set up for a parent, grandparent, or anyone else who isn't going to read a phishing awareness course but who you'd like to stop losing money to a stranger on the phone.
 >
 > Be upfront about cost where it isn't free. Nobody trusts a tool more for being oversold.
+>
+> This is written from Australia, and the telco and government sections below are Australian-specific. The software recommendations, the "if it's free, work out who's paying for it" test, and the scam patterns to watch for all travel anywhere — just swap in your own country's telco and government reporting bodies.
 
 ---
 

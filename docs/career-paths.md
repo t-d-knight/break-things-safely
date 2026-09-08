@@ -25,3 +25,5 @@ Try things.
 You'll eventually find the bits you enjoy and the bits you absolutely don't.
 
 That's useful information too.
+
+Once you've got a sense of direction, [Landing Your First Role](first-job.md) covers turning that into an actual job, and [Find Your People](community.md) covers the part that usually gets you there faster than applications alone.

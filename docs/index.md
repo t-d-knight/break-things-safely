@@ -14,6 +14,11 @@ curious.
 > This page is intended to work for anyone from a student who's just discovered cyber security through work experience to someone at work who's thinking *"hang on, this stuff is actually pretty interesting."*
 >
 > **You don't need to know what part of cyber you want to do yet. That's what exploring is for.**
+>
+> Written from Victoria, Australia, by someone whose day-to-day is Australian users and Australian systems. The principles here travel anywhere — but named resources like ACSC, Scamwatch and Victorian TAFEs are local. If you're reading this from elsewhere, look for your own country's equivalent.
+
+!!! danger "Here because something's gone wrong, not because you're curious?"
+    Skip everything below. Go straight to [If Something Actually Goes Wrong](if-something-goes-wrong.md). If it's happening to someone else in your life — a parent, a relative — see [Family & Friends](protecting-family.md) instead.
 
 ---
 
@@ -23,7 +28,7 @@ Don't try to do everything on this page. Pick something and have a go.
 
 ### 1. Do the Security Blue Team Junior Analyst Pathway
 
-[Security Blue Team — Junior Analyst Pathway](https://www.securityblue.team/courses/blue-team-junior-analyst-pathway-bundle)
+[Security Blue Team — Junior Analyst Pathway](https://www.securityblue.team/courses/blue-team-junior-analyst-pathway-bundle) — free
 
 **Start here.** Six introductory courses covering phishing analysis, digital forensics, threat intelligence, SIEM and incident response. Finish the pathway and you get a certificate.
 

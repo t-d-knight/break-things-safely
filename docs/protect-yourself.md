@@ -49,6 +49,17 @@ Security isn't just computers.
 
 A huge part of the job is understanding how people are manipulated.
 
+### The general pattern
+
+A lot of scams contain the same ingredients:
+
+!!! warning "The general pattern"
+    Urgency + emotion + a request to do something unusual.
+
+Slow down.
+
+Thirty seconds of thinking can defeat a surprisingly large number of scams.
+
 ### Common examples
 
 **Discord / gaming scams**
@@ -80,14 +91,3 @@ If this happens to you or someone you know, see [If Something Actually Goes Wron
 A convincing voice isn't proof that someone is who they claim to be.
 
 For genuinely important requests, independently contact the person using a known number or another channel.
-
-### The general pattern
-
-A lot of scams contain the same ingredients:
-
-!!! warning "The general pattern"
-    Urgency + emotion + a request to do something unusual.
-
-Slow down.
-
-Thirty seconds of thinking can defeat a surprisingly large number of scams.

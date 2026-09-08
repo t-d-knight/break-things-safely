@@ -34,3 +34,5 @@ Write:
 > **"Here's what I was trying to solve, what I tried, what didn't work, what I discovered and how I eventually solved it."**
 
 Being able to explain your thinking is a serious skill.
+
+Still want a certificate to go alongside all this? Fair enough — see [Take It Further](further-study.md#if-you-want-a-certification-anyway) for a couple worth actually doing. Just don't let collecting them replace building things.
