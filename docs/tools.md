@@ -39,6 +39,8 @@ If you're a minor or otherwise unsure, loop in a parent, teacher or someone else
 
 | Tool                                                         | What it does                                                |
 | -------------------------------------------------------------- | -------------------------------------------------------------- |
+| [Wireshark](https://www.wireshark.org)                       | Capture and inspect network traffic packet by packet — see [Build Your Own Lab](build-a-lab.md) for how to actually get traffic to look at |
+| [Nmap](https://nmap.org)                                     | Scan a network to find live hosts, open ports and running services — the golden rule above applies to this one more than any other tool on this page |
 | [VirusTotal](https://virustotal.com)                         | Analyse files, URLs and hashes using many security engines  |
 | [Cisco Talos](https://talosintelligence.com)                 | Threat intelligence and reputation information              |
 | [AlienVault OTX](https://otx.alienvault.com)                 | Community-driven threat intelligence                        |

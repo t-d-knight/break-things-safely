@@ -32,6 +32,7 @@ This isn't every term in the industry — it's the ones you'll actually run into
 | RBAC | Role-Based Access Control — access is granted based on a person's role, not individually per person |
 | Least privilege | The principle that someone should only have the access they actually need to do their job, nothing more |
 | PAM | Privileged Access Management — extra controls around high-value accounts like admins |
+| Zero Trust | A security model built on "never trust, always verify" — nobody and nothing gets automatic access just for being inside the network perimeter, every request gets checked on its own merits |
 
 ## Threats and attacks
 
@@ -56,7 +57,9 @@ This isn't every term in the industry — it's the ones you'll actually run into
 | --- | --- |
 | SOC | Security Operations Centre — the team that monitors for and responds to security events |
 | SIEM | Security Information and Event Management — a system that collects and correlates logs from across an organisation to spot suspicious activity |
+| IDS / IPS | Intrusion Detection/Prevention System — watches network traffic for known-bad patterns; IDS alerts on it, IPS actively blocks it |
 | EDR / XDR | Endpoint (or Extended) Detection and Response — software that monitors individual devices for malicious activity and can respond automatically |
+| SOAR | Security Orchestration, Automation and Response — tooling that automates the repetitive parts of responding to an alert, so a human only steps in for the parts that actually need judgement |
 | IR | Incident Response — the process of investigating and containing a security incident once it's detected |
 | DLP | Data Loss Prevention — tools and rules that stop sensitive data leaving an organisation |
 | Patch | An update that fixes a known bug or vulnerability |
@@ -76,6 +79,7 @@ This isn't every term in the industry — it's the ones you'll actually run into
 | Term | Meaning |
 | --- | --- |
 | MITRE ATT&CK | A public knowledge base cataloguing real-world attacker tactics and techniques, widely used as a reference framework |
+| Essential Eight (E8) | ASD's eight baseline mitigation strategies for Australian organisations — being retired and replaced by the broader [Essentials series](think-like-a-pro.md#the-essential-eight-and-whats-replacing-it) from 2026, but still the reference point most Australian orgs use today |
 | NIST | National Institute of Standards and Technology — a US body whose cyber security frameworks are widely used as best-practice references worldwide |
 | ISO 27001 | An international standard for managing information security within an organisation |
 | GDPR | General Data Protection Regulation — the EU's data privacy law, widely used as a reference point even outside the EU |

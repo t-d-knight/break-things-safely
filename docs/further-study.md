@@ -34,6 +34,21 @@ If you're weighing up whether TAFE is "worth it" compared to jumping straight in
 
 Pick one, not all four. Then go build the evidence to back it up.
 
+### Cloud security and GRC — a starting point
+
+[Career Paths](career-paths.md) lists Cloud Security and GRC as directions worth exploring, but neither gets covered elsewhere on this site — that's a gap, not a judgement on either one, just outside what's been personally walked. Here's a genuine starting point for each instead of nothing.
+
+**Cloud security**
+
+[flAWS.cloud](http://flaws.cloud) is a free, gamified set of challenges built around real AWS misconfigurations — no prior cloud experience assumed. (It's really served over plain http, not a broken link — part of the site's own lo-fi charm.) Once that's comfortable, [flAWS 2](http://flaws2.cloud) goes further into serverless and container security, split into an attacker path and a defender path. Between the two, it's a genuinely good hands-on introduction to what cloud security actually involves day to day — the cloud equivalent of [Build Your Own Lab](build-a-lab.md).
+
+**GRC (Governance, Risk and Compliance)**
+
+The [ACSC's Information Security Manual (ISM)](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism) is the Australian government's actual cyber security framework — free, official, and the closest thing to watching GRC work in practice instead of reading about it in the abstract. It pairs well with [the Essential Eight](think-like-a-pro.md#the-essential-eight-and-whats-replacing-it): the ISM is the detailed rulebook, the Essential Eight (soon the Essentials series) is the prioritised subset most organisations actually start with.
+
+!!! info "This section is thin, and that's known"
+    Both of these are a starting point, not a real pathway — actively looking for someone with genuine Cloud Security or GRC experience to build this out properly. If that's you, [get in touch](https://github.com/t-d-knight/break-things-safely) — until then, treat this as "better than nothing," not "figured out."
+
 ### Industry organisations
 
 Cheap or free, and useful for the networking side covered in [Find Your People](community.md):

@@ -42,8 +42,16 @@ Start using it to ask:
 
 That's how a lot of professional SOC, detection and threat-intelligence work starts to make sense.
 
+## The Essential Eight (and what's replacing it)
+
+[The Essential Eight](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight) is the Australian Signals Directorate's set of eight baseline mitigation strategies — things like patching, application control and restricting admin privileges — ranked against a maturity model. If you've been anywhere near Australian government or enterprise security, you've seen it.
+
+Worth knowing going in: in June 2026 the ACSC announced the Essential Eight is being retired over roughly the next two years, replaced by a broader set of guidance called the **Essentials series** — organised by technology domain (enterprise IT first, cloud and operational technology to follow) instead of one fixed eight-control checklist. Nothing about current obligations has changed yet, and existing Essential Eight work is expected to map across rather than get thrown out.
+
+Treat it as a snapshot, not gospel — a specific moment in Australian cyber security policy, already a little dated in places, but still the fastest way to understand how a huge number of Australian organisations think about baseline security today. Worth learning the current framework and watching the Essentials series roll out around it, not skipping straight past it.
+
 ### Try the Navigator
 
-[ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) turns that theory into something visual. Pick a few threat actor groups that target your industry, layer their known techniques on top of each other, and you can see where their TTPs overlap — a genuinely useful, beginner-friendly intro to threat modelling and control prioritisation, since the overlapping techniques are usually the ones worth defending against first.
+[ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) turns that theory into something visual. Pick a few threat actor groups that target your industry and layer their known techniques on top of each other — the overlap is the useful bit. Techniques shared by several groups are usually the ones worth defending against first.
 
-It sounds more complicated than it is. [This walkthrough](https://www.youtube.com/watch?v=hN_r3JW6xsY) demonstrates the idea well.
+That's a real introduction to threat modelling and control prioritisation, not just a theory exercise. [HackerSploit's Navigator walkthrough](https://www.youtube.com/watch?v=hN_r3JW6xsY) shows the idea in a few minutes.

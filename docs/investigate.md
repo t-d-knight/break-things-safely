@@ -36,3 +36,19 @@ What can you find?
 That's one of the best introductions to OSINT because you're investigating a target you are actually authorised to investigate:
 
 **yourself.**
+
+## Digital forensics basics
+
+Where OSINT looks at what's public, digital forensics looks at what's already on a device — recovering, preserving and analysing evidence after something's happened. It's named as its own career direction in [Career Paths](career-paths.md), but hadn't actually been covered here until now.
+
+| Tool                                                                        | What it does                                                                                    |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| [Autopsy](https://www.autopsy.com)                                          | Free, open-source platform for analysing a disk image — files, timelines, deleted data              |
+| [FTK Imager](https://www.exterro.com/digital-forensics-software/ftk-imager) | Free tool for creating a forensically sound copy of a drive before anyone analyses it — needs free registration to download |
+
+The [golden rule](tools.md) applies here too: image and analyse your own drives, or a purpose-built forensic image someone's published for practice — never someone else's device without permission.
+
+[CyberDefenders](https://cyberdefenders.org) has free, real-world DFIR challenges — actual disk images, memory dumps and packet captures to practise against once the tools are installed.
+
+!!! info "This section is thin, and that's known"
+    This is a starting point, not a real pathway — actively looking for someone with genuine DFIR experience to build it out properly. If that's you, [get in touch](https://github.com/t-d-knight/break-things-safely) — until then, treat this as "better than nothing," not "figured out."

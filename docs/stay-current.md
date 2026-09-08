@@ -16,6 +16,9 @@ These are written for a general audience, not just practitioners — good for bu
 * [The Hacker News](https://thehackernews.com) — high-volume, easy-to-read roundup of what's currently going on
 * [Have I Been Pwned — latest breaches](https://haveibeenpwned.com) — see new breaches land in the same tool from the [Security Tools](tools.md) page
 
+!!! tip "If reading isn't your thing"
+    Most cyber security podcasts haven't landed for the person writing this page — but [Darknet Diaries](https://darknetdiaries.com) is the exception. Real hacking and breach stories, told well, with no assumed background knowledge. Worth a genuine recommendation, not just a list-filler.
+
 ## Once you want more depth
 
 Still readable, but assumes a bit more background.
@@ -39,6 +42,16 @@ More technical, more niche, and easy to bounce off early on — worth coming bac
 * [Checkpoint Research](https://research.checkpoint.com) and [ESET WeLiveSecurity](https://www.welivesecurity.com) — vendor research teams publishing detailed malware and campaign analysis
 * [Microsoft Threat Intelligence](https://www.microsoft.com/en-us/security/blog/) — Microsoft's own threat research, given the sheer amount of the internet running on their platforms
 * [Watchtowr Labs](https://labs.watchtowr.com) — offensive security research, written for people who already know their way around a vulnerability report
+
+## Broader tech culture — not security-specific, but worth having in the mix
+
+None of these are security content. But a lot of people in this industry stay switched on partly by keeping an ear on general tech news — hardware, industry drama, whatever the latest dumpster fire is — and that context spills into security more often than you'd think.
+
+* [WAN Show](https://www.youtube.com/@LinusTechTips/streams) — Linus Tech Tips' weekly, unscripted, genuinely long news chat. Casual, sometimes a tangent-fest, but a good pulse check on the industry
+* [TechLinked](https://www.youtube.com/@techlinked) — LTT's sister channel, same news but tighter and faster if the full WAN Show is too much of a time investment
+* [Level1Techs](https://www.youtube.com/c/Level1Techs) — Wendell's channel, more enterprise/prosumer hardware and Linux-flavoured, a step more technical than the other two
+
+Not core learning material — just good company while you're doing something else.
 
 ---
 

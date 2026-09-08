@@ -43,23 +43,25 @@ nav:
   - Start Here:
       - Welcome: index.md
       - Protect Yourself First: protect-yourself.md
+      - Five Things to Try: start-here.md
   - Learn the Basics:
       - Get the Foundations: foundations.md
       - Get Hands-On: hands-on.md
+      - Build Your Own Lab: build-a-lab.md
       - Learn to Investigate: investigate.md
       - Security Tools We Use: tools.md
       - Cyber & IT Glossary: glossary.md
   - Think Like a Pro:
       - Think Like a Security Person: think-like-a-pro.md
       - Stay Current: stay-current.md
-      - Build Your Own Lab: build-a-lab.md
       - Build Evidence, Not Certificates: build-evidence.md
   - Where This Goes:
+      - "You Don't Have to Start With Cyber": dont-have-to-start-with-cyber.md
       - Career Paths: career-paths.md
       - Landing Your First Role: first-job.md
       - Find Your People: community.md
       - Take It Further: further-study.md
-      - "You Don't Have to Start With Cyber": dont-have-to-start-with-cyber.md
   - If It Goes Wrong: if-something-goes-wrong.md
   - Family & Friends: protecting-family.md
   - Keep Going: keep-going.md
+  - Thanks: thanks.md
