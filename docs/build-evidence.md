@@ -35,4 +35,4 @@ Write:
 
 Being able to explain your thinking is a serious skill.
 
-Still want a certificate to go alongside all this? Fair enough — see [Take It Further](further-study.md#if-you-want-a-certification-anyway) for a couple worth actually doing. Just don't let collecting them replace building things.
+Still want a certificate to go alongside all this? Fair enough — see [Take It Further](further-study.md#if-you-want-a-certification-too) for a couple worth actually doing. Just don't let collecting them replace building things.
