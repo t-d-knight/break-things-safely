@@ -1,7 +1,7 @@
 site_name: Break Things Safely
 site_url: https://breakthingssafely.com
 site_description: A free cyber security learning pathway — for anyone from a work experience student to a curious colleague.
-repo_url: https://github.com/t-d-knight/work-experience
+repo_url: https://github.com/t-d-knight/break-things-safely
 edit_uri: edit/main/docs/
 
 theme:
