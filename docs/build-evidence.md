@@ -21,7 +21,7 @@ For example:
 
 You could keep it in GitHub, a personal website or even a well-organised folder of Markdown files.
 
-Don't publish passwords, tokens, personal information or sensitive material.
+Don't publish passwords, tokens, personal information or sensitive material, **.gitignore** is your friend, use it!
 
 ### The important bit
 
