@@ -7,7 +7,7 @@
   --green: #39d353;
   --green-dim: #1e6e2a;
   --text: #e8e8ea;
-  --text-muted: #7a7a85;
+  --text-muted: #9a9aa5;
   --text-dim: #444450;
   --mono: 'Courier New', 'Courier', monospace;
   --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -62,7 +62,7 @@ body, .md-typeset {
 
 .md-tabs__link {
   font-size: 12px;
-  color: var(--text-dim);
+  color: var(--text-muted);
   opacity: 1;
 }
 
@@ -92,8 +92,8 @@ body, .md-typeset {
   color: var(--green);
 }
 
-/* Headings stay monospace for that "chrome" feel, body text stays sans */
-.md-typeset h1,
+/* Headings: h2/h3 stay monospace for that "chrome" feel; h1 goes sans
+   since page titles run long-form and wrap badly in monospace */
 .md-typeset h2,
 .md-typeset h3 {
   font-family: var(--mono);
@@ -101,11 +101,14 @@ body, .md-typeset {
 }
 
 .md-typeset h1 {
+  font-family: var(--sans);
+  font-weight: 600;
   color: var(--text);
 }
 
 .md-typeset h1::before {
   content: "$ ";
+  font-family: var(--mono);
   color: var(--green-dim);
 }
 
