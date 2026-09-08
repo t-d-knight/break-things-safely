@@ -8,6 +8,9 @@ No hacking required.
 
 It's used in threat intelligence, investigations, journalism, fraud detection and security research.
 
+!!! danger "Before you start"
+    Looking at publicly available information doesn't automatically mean you're entitled to use it however you want. Don't use OSINT to stalk, harass, impersonate or target people.
+
 | Technique / Tool                                         | What it does                                                                       |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | Google Lens / Reverse Image Search                       | Find where an image appears elsewhere online                                       |
@@ -33,5 +36,3 @@ What can you find?
 That's one of the best introductions to OSINT because you're investigating a target you are actually authorised to investigate:
 
 **yourself.**
-
-> Looking at publicly available information doesn't automatically mean you're entitled to use it however you want. Don't use OSINT to stalk, harass, impersonate or target people.
