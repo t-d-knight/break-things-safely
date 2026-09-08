@@ -1,0 +1,66 @@
+site_name: Break Things Safely
+site_url: https://breakthingssafely.com
+site_description: A free cyber security learning pathway — for anyone from a work experience student to a curious colleague.
+repo_url: https://github.com/YOUR-GITHUB-USERNAME/break-things-safely
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+  icon:
+    logo: material/shield-search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - Start Here:
+      - Welcome: index.md
+      - Protect Yourself First: protect-yourself.md
+  - Learn the Basics:
+      - Get the Foundations: foundations.md
+      - Get Hands-On: hands-on.md
+      - Learn to Investigate: investigate.md
+      - Security Tools We Use: tools.md
+  - Think Like a Pro:
+      - Think Like a Security Person: think-like-a-pro.md
+      - Build Your Own Lab: build-a-lab.md
+      - Build Evidence, Not Certificates: build-evidence.md
+  - Where This Goes:
+      - Career Paths: career-paths.md
+      - Take It Further: further-study.md
+      - "You Don't Have to Start With Cyber": dont-have-to-start-with-cyber.md
+  - If Something Goes Wrong: if-something-goes-wrong.md
+  - Protecting Family & Friends: protecting-family.md
+  - Keep Going: keep-going.md
