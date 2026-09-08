@@ -2,6 +2,15 @@
 
 These tools are useful for investigating files, domains, IP addresses and security events.
 
+### The golden rule
+
+!!! danger "The golden rule"
+    If you don't own it and you don't have permission to test it, don't test it.
+
+Your own devices, your own accounts, deliberately vulnerable labs and CTF platforms are fair game.
+
+Pointing scanners at somebody else's systems because *"I was only learning"* isn't a defence.
+
 **But think before you upload anything.**
 
 These are security research platforms, not private dumping grounds.
@@ -34,12 +43,3 @@ If the material belongs to your school, employer or someone else, ask first.
 | [abuse.ch](https://abuse.ch)                                 | Malware and botnet threat intelligence                      |
 | [MACVendors](https://macvendors.com)                         | Identify a device manufacturer from a MAC address           |
 | [CVSS Calculator](https://www.first.org/cvss/calculator/3.1) | Understand how vulnerability severity scores are calculated |
-
-### The golden rule
-
-!!! danger "The golden rule"
-    If you don't own it and you don't have permission to test it, don't test it.
-
-Your own devices, your own accounts, deliberately vulnerable labs and CTF platforms are fair game.
-
-Pointing scanners at somebody else's systems because *"I was only learning"* isn't a defence.
