@@ -1,5 +1,12 @@
 # Cyber Security — Where to Go Next
 
+<div class="terminal-prompt" markdown>
+```
+$ whoami
+curious.
+```
+</div>
+
 > If today sparked something, this is where to go next.
 >
 > Most of this is free. You don't need a degree, expensive hardware or permission to start learning — you just need curiosity.
@@ -7,8 +14,6 @@
 > This page is intended to work for anyone from a student who's just discovered cyber security through work experience to someone at work who's thinking *"hang on, this stuff is actually pretty interesting."*
 >
 > **You don't need to know what part of cyber you want to do yet. That's what exploring is for.**
-
----
 
 ---
 

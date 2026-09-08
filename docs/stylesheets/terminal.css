@@ -1,0 +1,170 @@
+:root, [data-md-color-scheme="slate"] {
+  --bg: #0d0d0f;
+  --surface: #141417;
+  --surface2: #1c1c21;
+  --border: rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.12);
+  --green: #39d353;
+  --green-dim: #1e6e2a;
+  --text: #e8e8ea;
+  --text-muted: #7a7a85;
+  --text-dim: #444450;
+  --mono: 'Courier New', 'Courier', monospace;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --md-default-bg-color: var(--bg);
+  --md-default-fg-color: var(--text);
+  --md-default-fg-color--light: var(--text-muted);
+  --md-default-fg-color--lighter: var(--text-dim);
+
+  --md-primary-fg-color: var(--surface);
+  --md-primary-bg-color: var(--text);
+
+  --md-accent-fg-color: var(--green);
+  --md-accent-fg-color--transparent: rgba(57,211,83,0.1);
+
+  --md-typeset-a-color: var(--green);
+
+  --md-footer-bg-color: var(--surface);
+  --md-footer-bg-color--dark: var(--bg);
+  --md-footer-fg-color: var(--text);
+  --md-footer-fg-color--light: var(--text-muted);
+
+  --md-code-bg-color: var(--surface2);
+  --md-code-fg-color: var(--green);
+}
+
+body, .md-typeset {
+  font-family: var(--sans);
+}
+
+/* Header: thin border, no shadow, no gradient */
+.md-header {
+  background-color: var(--surface);
+  box-shadow: none;
+  border-bottom: 1px solid var(--border);
+}
+
+.md-header__title,
+.md-tabs__link,
+.md-nav__link,
+.md-nav__title,
+.md-footer__link {
+  font-family: var(--mono);
+  letter-spacing: 0.02em;
+}
+
+/* Terminal comment-style prefix on top-level nav tabs */
+.md-tabs {
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.md-tabs__link {
+  font-size: 12px;
+  color: var(--text-dim);
+  opacity: 1;
+}
+
+.md-tabs__link::before {
+  content: "// ";
+  color: var(--text-dim);
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: var(--green);
+}
+
+.md-tabs__link--active::before,
+.md-tabs__link:hover::before {
+  color: var(--green-dim);
+}
+
+/* Sidebar nav */
+.md-nav__link--active,
+.md-nav__link:focus,
+.md-nav__link:hover {
+  color: var(--green);
+}
+
+.md-nav__item .md-nav__link--active {
+  color: var(--green);
+}
+
+/* Headings stay monospace for that "chrome" feel, body text stays sans */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: var(--mono);
+  letter-spacing: 0.01em;
+}
+
+.md-typeset h1 {
+  color: var(--text);
+}
+
+.md-typeset h1::before {
+  content: "$ ";
+  color: var(--green-dim);
+}
+
+/* Admonitions: sharper corners, monospace title, less rounded than stock Material */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 4px;
+  border-width: 1px;
+  background-color: var(--surface);
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  font-family: var(--mono);
+  font-size: 13px;
+}
+
+/* Search + misc chrome */
+.md-search__input {
+  background-color: var(--surface2);
+  font-family: var(--mono);
+}
+
+.md-footer {
+  border-top: 1px solid var(--border);
+}
+
+/* Links inside prose keep the green underline-on-hover terminal feel */
+.md-typeset a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--green-dim);
+}
+
+.md-typeset a:hover {
+  border-bottom-color: var(--green);
+}
+
+/* Tables: darker header row, monospace headers to match the "data" feel */
+.md-typeset table:not([class]) th {
+  background-color: var(--surface2);
+  font-family: var(--mono);
+  font-size: 13px;
+}
+
+/* Homepage terminal-prompt block */
+.terminal-prompt .highlight {
+  background-color: var(--surface2);
+  border: 1px solid var(--border2);
+  border-radius: 4px;
+  margin: 1.5rem 0 2rem;
+}
+
+.terminal-prompt .highlight pre {
+  color: var(--green);
+  font-family: var(--mono);
+  font-size: 14px;
+  padding: 1rem 1.25rem;
+}
+
+.terminal-prompt .highlight code {
+  background: none;
+}

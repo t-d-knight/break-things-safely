@@ -6,21 +6,11 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  font: false
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: green
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -33,6 +23,9 @@ theme:
     - content.code.copy
   icon:
     logo: material/shield-search
+
+extra_css:
+  - stylesheets/terminal.css
 
 markdown_extensions:
   - admonition
