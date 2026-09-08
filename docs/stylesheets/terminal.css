@@ -15,7 +15,7 @@
   --md-default-bg-color: var(--bg);
   --md-default-fg-color: var(--text);
   --md-default-fg-color--light: var(--text-muted);
-  --md-default-fg-color--lighter: var(--text-dim);
+  --md-default-fg-color--lighter: var(--text-muted);
 
   --md-primary-fg-color: var(--surface);
   --md-primary-bg-color: var(--text);
@@ -58,6 +58,26 @@ body, .md-typeset {
 .md-tabs {
   background-color: var(--surface);
   border-bottom: 1px solid var(--border);
+  position: relative;
+}
+
+/* Fade cue at the right edge — the tab strip scrolls horizontally with
+   no visible scrollbar, so this hints there's more to reach without
+   needing JS to detect actual scroll position. */
+.md-tabs::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 28px;
+  background: linear-gradient(to right, transparent, var(--surface));
+  pointer-events: none;
+}
+
+.md-tabs__item {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
 }
 
 .md-tabs__link {
@@ -124,6 +144,57 @@ body, .md-typeset {
 .md-typeset summary {
   font-family: var(--mono);
   font-size: 13px;
+}
+
+/* Re-theme every admonition type used across the docs into the terminal
+   palette instead of Material's stock per-type colours (blue/cyan info,
+   purple question, etc.) which clash with the green/dark scheme. */
+.md-typeset .admonition.info,
+.md-typeset .admonition.tip,
+.md-typeset .admonition.success,
+.md-typeset .admonition.quote {
+  border-color: var(--green-dim);
+}
+
+.md-typeset .info > .admonition-title,
+.md-typeset .tip > .admonition-title,
+.md-typeset .success > .admonition-title,
+.md-typeset .quote > .admonition-title {
+  background-color: var(--surface2);
+  border-color: var(--green-dim);
+}
+
+.md-typeset .info > .admonition-title::before,
+.md-typeset .tip > .admonition-title::before,
+.md-typeset .success > .admonition-title::before,
+.md-typeset .quote > .admonition-title::before {
+  background-color: var(--green);
+}
+
+.md-typeset .admonition.warning {
+  border-color: #c98a1f;
+}
+
+.md-typeset .warning > .admonition-title {
+  background-color: var(--surface2);
+  border-color: #c98a1f;
+}
+
+.md-typeset .warning > .admonition-title::before {
+  background-color: #e8a838;
+}
+
+.md-typeset .admonition.danger {
+  border-color: #a33a3a;
+}
+
+.md-typeset .danger > .admonition-title {
+  background-color: var(--surface2);
+  border-color: #a33a3a;
+}
+
+.md-typeset .danger > .admonition-title::before {
+  background-color: #e05a5a;
 }
 
 /* Search + misc chrome */

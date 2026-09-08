@@ -20,3 +20,9 @@ This is set up to deploy on Cloudflare Pages:
 3. Build command: `pip install mkdocs-material && mkdocs build`
 4. Build output directory: `site`
 5. Add `breakthingssafely.com` as the custom domain in the Pages project settings.
+
+## License
+
+Content and code in this repo are licensed under [CC BY 4.0](LICENSE) —
+share it, adapt it, use it for your own program, just credit where it
+came from.
